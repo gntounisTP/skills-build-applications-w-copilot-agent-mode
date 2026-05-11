@@ -20,7 +20,7 @@ I want to build an Octofit Tracker app that will include the following:
 
 ## Forwarded ports
 
-- 8000: public
+- 8003: public
 - 3000: public
 - 27017: private
 
