@@ -64,7 +64,7 @@ jobs:
         uses: skills/action-keyphrase-checker@v1
         with:
           text-file: octofit-tracker/backend/octofit_tracker/settings.py
-          keyphrase: '-8000.app.github.dev'
+          keyphrase: '-8003.app.github.dev'
           minimum-occurrences: 1
           case-sensitive: false
 
@@ -74,7 +74,7 @@ jobs:
         uses: skills/action-keyphrase-checker@v1
         with:
           text-file: octofit-tracker/backend/octofit_tracker/urls.py
-          keyphrase: '-8000.app.github.dev'
+          keyphrase: '-8003.app.github.dev'
           minimum-occurrences: 1
           case-sensitive: false
 

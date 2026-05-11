@@ -28,12 +28,12 @@ Copy and paste the following prompt(s) in the GitHub Copilot Chat and select the
 > 
 > - All Django project files are in the `octofit-tracker/backend/octofit_tracker` directory.
 > - Only update urls in `settings.py` and `urls.py`
-> - REST api endpoint format https://$CODESPACE_NAME-8000.app.github.dev/api/[component]/
-> - example full url: https://$CODESPACE_NAME-8000.app.github.dev/api/activities/
+> - REST api endpoint format https://$CODESPACE_NAME-8003.app.github.dev/api/[component]/
+> - example full url: https://$CODESPACE_NAME-8003.app.github.dev/api/activities/
 > - Do not hard code the `$CODESPACE_NAME` value use the variable
 > - Do not update the `views.py`
 >
-> 1. Update `urls.py` to replace the return for the REST API URL endpoints with the environment variable $CODESPACE_NAME https://$CODESPACE_NAME-8000.app.github.dev for Django and avoid certificate HTTPS issues.
+> 1. Update `urls.py` to replace the return for the REST API URL endpoints with the environment variable $CODESPACE_NAME https://$CODESPACE_NAME-8003.app.github.dev for Django and avoid certificate HTTPS issues.
 > 2. Make sure the Django backend works on your codespace URL and localhost (i.e., the value of `$CODESPACE_NAME`) by updating `ALLOWED_HOSTS` in `settings.py`.
 > 3. Test the API endpoints using curl command.
 >```
@@ -48,7 +48,7 @@ Now, let's actually try running the Django application! In the left sidebar, sel
 
 <img alt="Run Django" src="https://github.com/user-attachments/assets/a6c32898-bbeb-41ed-a8c5-488c8a42d507" width=30% height=30%>
 
-Go to the running Django REST api url that pops up for port 8000 that looks like the following:
+Go to the running Django REST api url that pops up for port 8003 that looks like the following:
 
 <img alt="django-rest-api-port" src="https://github.com/user-attachments/assets/627f3cbe-96ae-4a30-b38b-acd3cecf96ee" width=30% height=30%>
 
